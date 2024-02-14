@@ -13,12 +13,11 @@ The program reads data from a file and prints the results in rounded integer for
 
 To test the program, follow these steps:
 
-1. Save the provided Go code in a file, for example, `main.go`.
-2. Open a terminal and navigate to the directory containing the file.
-3. Create a data file by running this command `./math-skills` in the terminal.  
+1. Open a terminal and navigate to the directory containing the file.
+2. Create a data file by running this command `./math-skills` in the terminal.  
    This will create a file called `data.txt` in the current directory. The terminal output from this 
    command is the correct output that should match the output of `main.go`.  
-4. Run the program with the following command, replacing `data.txt` with the path to your data file:
+3. Run the program with the following command, replacing `data.txt` with the path to your data file:
 
    ```bash
    $ go run main.go data.txt
